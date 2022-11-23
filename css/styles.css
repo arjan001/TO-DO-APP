@@ -103,7 +103,9 @@ label {
   align-items: center;
   padding: 1.9rem 2rem;
   gap: 2rem;
+  text-align: center;
 }
+
 
 /* HEADER'S CARD */
 
@@ -313,6 +315,11 @@ footer {
   margin: 4rem 0;
   text-align: center;
   color: var(--clr-gb-5);
+}
+footer p span{
+ color:  hsl(280, 87%, 65%);
+ font-weight: bold;
+
 }
 
 /* JAVASCRIPT FUNCTIONS - STYLES */

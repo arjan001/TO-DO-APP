@@ -17,7 +17,7 @@ function main() {
           : "./assets/images/icon-sun.svg"
       );
     });
-  // get alltodos and initialise listeners
+  // getting alltodos and initialise listeners
   addTodo();
   // dragover on .todos container
   document.querySelector(".todos").addEventListener("dragover", function (e) {
